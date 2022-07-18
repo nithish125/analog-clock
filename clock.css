@@ -3,8 +3,13 @@ box-sizing: border-box;
 font-family: 'Times New Roman', Times, serif;
 }
 body{
-    background: linear-gradient(to right,hs1(200 100 50%) ,hs1(175 100 50%));
+    
     color: gray;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(45deg, black, transparent,red);
 }
 .clock{
     width: 300px;
@@ -99,4 +104,11 @@ body{
     width: 2px;
     height: 50%;
     background-color:red;
+}
+.clock .fabevy{
+    left: 42%;
+    top: 20%;
+    position: absolute;
+    color: blue;
+    font-size: 23px;
 }
